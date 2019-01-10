@@ -16,6 +16,7 @@ Imports:
     dapr
 Suggests:
     ggplot2,
+    rlang,
     testthat,
     covr
 Remotes: mkearney/dapr

@@ -43,7 +43,7 @@ capitalize_labels.list <- function(x) {
 
 #' @export
 capitalize_labels.quosure <- function(x) {
-  tfse::is_installed("rlang", stop = TRUE)
+  tfse:::is_installed("rlang", stop = TRUE)
   rlang::as_quosure(
     as.symbol(capitalize_labels(rlang::quo_name(x))),
     env = rlang::get_env(x)

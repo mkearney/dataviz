@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://dataviz.mikewk.com//index.html</loc>
+  </url>
+  <url>
+    <loc>https://dataviz.mikewk.com//reference/append_nth.html</loc>
+  </url>
+  <url>
+    <loc>https://dataviz.mikewk.com//reference/capitalize_labels.html</loc>
+  </url>
+  <url>
+    <loc>https://dataviz.mikewk.com//reference/col2hex.html</loc>
+  </url>
+  <url>
+    <loc>https://dataviz.mikewk.com//reference/gg_cols.html</loc>
+  </url>
+  <url>
+    <loc>https://dataviz.mikewk.com//reference/theme_mwk.html</loc>
+  </url>
+</urlset>

@@ -1,0 +1,12 @@
+url: https://dataviz.mikewk.com/
+
+template:
+  ganalytics: "UA-64959413-1"
+
+authors:
+  Michael W. Kearney:
+    href: https://mikewk.com
+navbar:
+  right:
+  - icon: fa-github fa-lg
+    href: https://github.com/mkearney/dataviz

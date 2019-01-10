@@ -19,4 +19,6 @@ Suggests:
     rlang,
     testthat,
     covr
-Remotes: mkearney/dapr
+Remotes: 
+    mkearney/dapr,
+    mkearney/tfse

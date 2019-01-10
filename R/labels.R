@@ -9,7 +9,7 @@ capitalize_labels <- function(x) UseMethod("capitalize_labels")
 
 capitalize_labels_ <- function(x) {
   m <- regexpr("[[:alpha:]]", x)
-  n <- regmatches_first(x, "[[:alpha:]]")
+  n <- tfse::regmatches_first(x, "[[:alpha:]]")
   regmatches(x, m) <- toupper(n)
   x
 }
@@ -43,7 +43,7 @@ capitalize_labels.list <- function(x) {
 
 #' @export
 capitalize_labels.quosure <- function(x) {
-  is_installed("rlang", stop = TRUE)
+  tfse::is_installed("rlang", stop = TRUE)
   rlang::as_quosure(
     as.symbol(capitalize_labels(rlang::quo_name(x))),
     env = rlang::get_env(x)

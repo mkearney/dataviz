@@ -15,5 +15,7 @@ Imports:
     tfse,
     dapr
 Suggests:
-    ggplot2
+    ggplot2,
+    testthat,
+    covr
 Remotes: mkearney/dapr

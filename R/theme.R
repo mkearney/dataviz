@@ -41,7 +41,7 @@ theme_mwk <- function(base_size = 12,
         fill = light, colour = light),
       panel.border = ggplot2::element_blank(),
       plot.title = ggplot2::element_text(
-        face = "bold", colour = dark, size = ggplot2::rel(1.2)),
+        face = "bold", colour = dark, size = ggplot2::rel(1.3)),
       plot.subtitle = ggplot2::element_text(
         colour = dark, size = ggplot2::rel(.85)),
       text = ggplot2::element_text(colour = dark),
@@ -52,9 +52,9 @@ theme_mwk <- function(base_size = 12,
       axis.title = ggplot2::element_text(
         colour = dark, size = ggplot2::rel(.85), hjust = .95, face = "italic"),
       panel.grid.major = ggplot2::element_line(
-        color = "#111111", size = ggplot2::rel(.040)),
+        color = "#000000", size = ggplot2::rel(.030)),
       panel.grid.minor = ggplot2::element_line(
-        color = "#111111", size = ggplot2::rel(.020)),
+        color = "#000000", size = ggplot2::rel(.015)),
       axis.ticks = ggplot2::element_blank()
     )
 }

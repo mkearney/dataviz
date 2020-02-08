@@ -9,7 +9,7 @@ Description: Tools for generating data visualizations. Tools include functions
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 Depends:
     R (>= 3.1.0)
 Imports: 

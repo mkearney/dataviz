@@ -8,9 +8,8 @@
 capitalize_labels <- function(x) UseMethod("capitalize_labels")
 
 capitalize_labels_ <- function(x) {
-  m <- regexpr("[[:alpha:]]", x)
-  n <- tfse::regmatches_first(x, "[[:alpha:]]")
-  regmatches(x, m) <- toupper(n)
+  m <- regexpr("^[a-z]", x)
+  regmatches(x, m) <- toupper(regmatches(x, m))
   x
 }
 

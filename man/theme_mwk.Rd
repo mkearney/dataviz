@@ -5,9 +5,14 @@
 \alias{theme_mwk_caption_text}
 \title{theme_mwk}
 \usage{
-theme_mwk(base_size = 12, base_family = "Roboto Condensed",
-  dark = "#24292e", light = "#ffffff", gray = "#ededed",
-  caption = TRUE)
+theme_mwk(
+  base_size = 12,
+  base_family = "Avenir Next LT Pro",
+  dark = "#24292e",
+  light = "#ffffff",
+  gray = "#ededed",
+  caption = TRUE
+)
 
 theme_mwk_caption_text()
 }

@@ -15,7 +15,6 @@ col2hex <- function(color, alpha = NULL) UseMethod("col2hex")
 
 
 #' @export
-#' @importFrom grDevices col2rgb
 col2hex.character <- function(color, alpha = NULL) {
   color <- grDevices::col2rgb(color)
   col2hex(color, alpha)
@@ -23,6 +22,12 @@ col2hex.character <- function(color, alpha = NULL) {
 
 #' @export
 col2hex.numeric <- function(color, alpha = NULL) {
+  if (length(color) == 4) {
+    if (is.null(alpha)) {
+      alpha <- color[4]
+    }
+    color <- color[-4]
+  }
   stopifnot(length(color) == 3L)
   color <- col2hex_dbl(color, alpha)
   col2hex(color, alpha)
